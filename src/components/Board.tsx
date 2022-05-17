@@ -15,7 +15,7 @@ const Board = () => {
       <span className="absolute top-0">{numOfRolls}</span>
       {btn && (
         <button
-          className="p-5 m-5 bg-red-500 text-white"
+          className="p-5 m-5 bg-black text-white"
           onClick={() => {
             setBoardState(numbers);
             setBtn(false);
